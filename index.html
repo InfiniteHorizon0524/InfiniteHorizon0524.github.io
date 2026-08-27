@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InfiniteHorizon · 个人主页</title>
+  <meta name="description" content="InfiniteHorizon 的个人主页 —— 开发者、创作者，持续探索无限可能。" />
+  <meta name="author" content="InfiniteHorizon" />
+  <meta name="theme-color" content="#0a0e17" />
+  <meta property="og:title" content="InfiniteHorizon · 个人主页" />
+  <meta property="og:description" content="开发者、创作者，持续探索无限可能。" />
+  <meta property="og:type" content="website" />
+  <!-- 引入字体与样式 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ==================== 背景装饰 ==================== -->
+  <div class="bg" aria-hidden="true">
+    <div class="bg-grid"></div>
+    <div class="bg-orb bg-orb-1"></div>
+    <div class="bg-orb bg-orb-2"></div>
+    <div class="bg-orb bg-orb-3"></div>
+  </div>
+
+  <!-- ==================== 顶部导航 ==================== -->
+  <header class="navbar" id="navbar">
+    <nav class="nav-inner">
+      <a href="#home" class="brand">
+        <span class="brand-logo">&#8982;</span>
+        <span class="brand-text">InfiniteHorizon<span class="brand-accent">0524</span></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">首页</a></li>
+        <li><a href="blog/index.html" class="nav-link">博客</a></li>
+        <li><a href="#contact" class="nav-link">联系</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Say Hi 👋</a>
+      <button class="nav-toggle" id="navToggle" aria-label="切换菜单">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ==================== 文章式首页：介绍 / 项目 / 博客 / 联系 ==================== -->
+    <div class="article" id="home">
+      <header class="article-head">
+        <h1>InfiniteHorizon</h1>
+        
+      </header>
+
+      <div class="prose">
+        <p>这里是属于我的数字花园，专注于探索无限可能 —— 记录代码、想法与成长。</p>
+        <p>我是 <strong>InfiniteHorizon</strong>，上海科技大学计算机专业（人工智能荣誉班）大二在读，研究兴趣包括 3D 视觉、大语言模型和自然语言处理以及具身智能。</p>
+        <h2>研究方向</h2>
+        <p>目前正在进行全年龄段以及全体型的 Anny 人体识别器的开发。</p>
+        <p>同时也在校内屠可伟课题组内参与研究 Sigmoid Attention 的训练效率。</p>
+      </div>
+
+      <!-- ==================== 项目简介 ==================== -->
+      <section id="projects" class="prose-section">
+        <h2>项目简介</h2>
+        <p class="prose-item-desc">To be done</p>
+      </section>
+
+      <!-- ==================== 联系方式 ==================== -->
+      <section id="contact" class="prose-section">
+        <h2>联系方式</h2>
+        <div class="prose-contact">
+          <a href="https://github.com/InfiniteHorizon0524" target="_blank" rel="noopener">🐙 GitHub</a>
+          <a href="mailto:you@example.com">📧 邮箱</a>
+          <a href="#">💬 更多平台 · 待补充</a>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- ==================== 页脚 ==================== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p class="footer-line1">© 2026 InfiniteHorizon · Built with <span class="gradient-text">♥</span> · Powered by GitHub Pages</p>
+      <p class="footer-line2">
+        <a href="#home">回到顶部 ↑</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
