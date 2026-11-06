@@ -3,61 +3,46 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>博客 · InfiniteHorizon</title>
-  <meta name="description" content="InfiniteHorizon 的博客 —— 记录技术笔记、学习心得与生活随笔。" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet" />
+  <title>Blog · InfiniteHorizon</title>
+  <meta name="description" content="InfiniteHorizon 的博客，记录技术笔记、学习心得与生活随笔。" />
+  <meta name="theme-color" content="#ffffff" />
   <link rel="icon" type="image/png" href="../assets/images/favicon.png" />
   <link rel="stylesheet" href="../css/style.css" />
 </head>
-<body class="subpage">
-
-  <!-- 背景 -->
-  <div class="bg" aria-hidden="true">
-    <div class="bg-grid"></div>
-    <div class="bg-orb bg-orb-1"></div>
-    <div class="bg-orb bg-orb-2"></div>
-  </div>
-
-  <!-- 导航 -->
-  <header class="navbar scrolled" id="navbar">
-    <nav class="nav-inner">
-      <a href="../index.html" class="brand">
-        <span class="brand-logo">&#8982;</span>
-        <span class="brand-text">InfiniteHorizon<span class="brand-accent">0524</span></span>
-      </a>
-      <ul class="nav-links" id="navLinks">
-        <li><a href="../index.html#home" class="nav-link">首页</a></li>
-        <li><a href="index.html" class="nav-link active">博客</a></li>
-        <li><a href="../index.html#contact" class="nav-link">联系</a></li>
+<body>
+  <a class="skip-link" href="#main">跳转到正文</a>
+  <header class="masthead">
+    <nav class="navigation" aria-label="主导航">
+      <a class="site-title" href="../index.html">InfiniteHorizon</a>
+      <ul class="nav-links">
+        <li><a href="../index.html">About</a></li>
+        <li><a href="../index.html#research">Research</a></li>
+        <li><a href="../blog/index.html" aria-current="page">Blog</a></li>
       </ul>
-      
     </nav>
   </header>
-
-  <main>
-    <section class="section subpage-hero">
-      <div class="section-inner">
-        <div class="section-head reveal">
-          <span class="section-tag">/blog</span>
-          <h2 class="section-title">博客文章</h2>
-          <p class="section-desc">To be done</p>
-        </div>
-
-        <div class="section-more reveal">
-          <a href="../index.html" class="btn btn-ghost">← 返回首页</a>
-        </div>
+  <main class="page-layout" id="main">
+    <aside class="profile" aria-label="个人信息">
+      <img class="profile-avatar" src="../assets/images/icon.jpg" alt="InfiniteHorizon 的头像" width="160" height="160" />
+      <div class="profile-info">
+        <h2 class="profile-name">InfiniteHorizon</h2>
+        <p class="profile-bio">上海科技大学<br />计算机专业 · 人工智能荣誉班<br />本科二年级</p>
+        <ul class="profile-links">
+          <li class="profile-location">中国 · 上海</li>
+          <li><a href="mailto:jiangxy2025@shanghaitech.edu.cn">Email</a></li>
+          <li><a href="https://github.com/InfiniteHorizon0524" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        </ul>
       </div>
-    </section>
+    </aside>
+    <article class="page-content">
+      <h1>Blog</h1>
+      <p>技术笔记、学习心得与生活随笔。</p>
+      <p class="empty-state">还没有发布文章，内容整理中。</p>
+      <p><a href="../index.html">← 返回首页</a></p>
+    </article>
   </main>
-
   <footer class="footer">
-    <div class="footer-inner">
-      <p class="footer-line1">© <span class="js-year">2026</span> InfiniteHorizon · Powered by GitHub Pages</p>
-    </div>
+    <div class="footer-inner">© 2026 InfiniteHorizon · Powered by <a href="https://pages.github.com/">GitHub Pages</a></div>
   </footer>
-
-  <script src="../js/main.js"></script>
 </body>
 </html>
