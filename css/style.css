@@ -59,7 +59,8 @@ a:focus-visible { outline: 2px solid var(--link); outline-offset: 5px; }
 .profile-bio { margin: 0 0 18px; }
 .profile-links { padding: 0; margin: 0; list-style: none; }
 .profile-links li { margin: 7px 0; }
-.profile-links a { color: var(--text); }
+.profile-links a { display: inline-flex; align-items: center; gap: 8px; color: var(--text); }
+.profile-icon { flex-shrink: 0; }
 .profile-location { color: var(--muted); }
 .page-content { min-width: 0; }
 h1 { font-size: 30px; line-height: 1.3; letter-spacing: -0.5px; margin: 0 0 24px; }
